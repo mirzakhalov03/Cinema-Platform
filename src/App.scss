@@ -1,0 +1,80 @@
+.hero{
+    height: 100vh;
+    background: rgb(158,2,71);
+    background: linear-gradient(225deg, rgba(158,2,71,1) 0%, rgba(64,136,245,1) 50%, rgba(21,70,128,1) 100%);
+
+
+    &__hug{
+        width: 100%;
+        height: 900px;
+        overflow-y: auto;
+        background: rgba(255, 255, 255, 0.126);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5.1px);
+        padding: 20px;
+    }
+
+    .header__title{
+        max-width: 100%;
+        width: 100%;
+        padding: 20px;
+        border-bottom: 3px solid white;
+        border-radius: 4px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .wrapper{
+        margin: 50px 0;
+        padding: 0 15px ;
+        max-width: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+}
+
+.load-more-button{
+    padding: 10px 20px;
+    background-color: crimson;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.load-more{
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar{
+display: flex;
+align-items: center;
+gap: 10px;
+    input{
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        width: 300px;
+        max-width: 500px;
+        box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.512);
+        outline: none;
+    }
+
+    button{
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: crimson;
+        color: white;
+        cursor: pointer;
+        box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.512);
+
+    }
+}
